@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 
-const uiIsOpen = ref(true);
+const uiIsOpen = ref(false);
 
 onMounted(async () => {
   await fetch('https://lcdv_identity/ready', {
